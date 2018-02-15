@@ -18,7 +18,7 @@ function johnLennonFacts(facts) {
   let i = facts.length;
   while (i > 0) {
     --i;
-    johnLennonFacts.push(`${facts[i]}!!!`)
+    johnLennonFacts.unshift(`${facts[i]}!!!`)
   }
   return johnLennonFacts;
 }
